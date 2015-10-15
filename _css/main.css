@@ -1,1 +1,66 @@
 /* css */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#header {
+    background-color: gray;
+    padding: 0px;
+    color: white;
+
+}
+#header h1{
+    font-family: Verdana;
+    font-size: 60pt;
+    padding: 20px 40px;
+    margin: 0px;
+}
+
+/* navigation */
+#nav, #nav a {
+    background-color:#ccc;    /* this changes the background color to #ccc */
+    padding:10px;
+    
+}
+#nav a {
+    margin:0px;
+    color:black;
+    font-family:arial;
+    text-decoration: none;    /* this removes the underline */
+}
+#nav a:hover {
+    background-color:#aaaaff;
+    color:white;
+    transition: background-color 2s;  /* this causes the background color to change to #aaaaff throughout 2 seconds on hovering */
+}
+/* end navigation */
+#content {
+    padding:20px 40px;
+    background-color:#eee;  /* sets the background color of the content */
+    margin:0px;
+}
+#content h2, #content h3 {
+    font-family:Arial;
+}
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px 40px;
+}
+#bob {
+    background-color: pink;
+    padding:20px;
+}
+#page {
+
+/*#header {
+    background-color: gray;
+    width: 400px 
+    padding: 20px;
+}
+#header:hover {
+    background-color: pink;
+    transition: background-color 2s;
+}*/
